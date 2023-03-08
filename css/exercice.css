@@ -35,8 +35,22 @@
 .exercice-3 .container .element-blue {
   order: -1;
   align-self: flex-start;
-/* 4. exercice-4 */
+}
 
+/* 4. exercice-4 */
+.exercice-4 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exercice-4 .container .element-pink {
+  align-self: flex-start;
+  order: 0;
+}
+.exercice-4 .container .element-blue {
+  order: 1;
+}
 /* 5. exercice-5 */
 
 /* 6. exercice-6 */
