@@ -1,4 +1,11 @@
 /* 1. exercice-1 */
+.exercice-1 .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+
+}
 
 /* 2. exercice-2 */
 
