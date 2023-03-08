@@ -94,7 +94,16 @@ align-self:flex-start ;
   order: -1;
 }
 /* 8. exercice-8 */
+.exercice-8 .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
+.exercice-8 .container .element-pink{
+  order: 1;
+  flex-grow: 1;
+}
 /* 9. exercice-9 */
 
 /* 10. exercice-10 */
