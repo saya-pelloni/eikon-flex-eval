@@ -51,8 +51,14 @@
 .exercice-4 .container .element-blue {
   order: 1;
 }
-/* 5. exercice-5 */
 
+/* 5. exercice-5 */
+.exercice-5 .container {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 /* 6. exercice-6 */
 
 /* 7. exercice-7 */
