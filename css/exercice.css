@@ -67,6 +67,7 @@
   flex-flow: row wrap;
   justify-content: center;
 }
+
 .exercice-6 .container .element-pink {
   flex-grow: 3;
 }
@@ -96,15 +97,26 @@ align-self:flex-start ;
 /* 8. exercice-8 */
 .exercice-8 .container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
+}
+
+.exercice-8 .container .element-yellow {
+  flex-flow: 1;
 }
 
 .exercice-8 .container .element-pink{
   order: 1;
-  flex-grow: 1;
+  flex-grow: 2; 
+  
 }
 /* 9. exercice-9 */
+.exercice-9 .container {
+ display: flex; 
+ flex-direction: column;
+ align-items: flex-end;
+ 
+}
 
 /* 10. exercice-10 */
 .exercice-10 .container {
